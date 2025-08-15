@@ -1,0 +1,10 @@
+my-theme/
+  ├─ layouts/
+  │   └─ default.twig
+  ├─ pages/
+  │   └─ home.twig
+  ├─ assets/
+  │   └─ style.css
+  ├─ languages/
+  │   └─ ar.json
+  └─ twilight.json
