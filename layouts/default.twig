@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ store.name }}</title>
+  <link rel="stylesheet" href="{{ asset('style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>{{ store.name }}</h1>
+    <p>{{ store.description }}</p>
+  </header>
+
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer>
+    <p>جميع الحقوق محفوظة &copy; {{ "now"|date("Y") }} {{ store.name }}</p>
+  </footer>
+</body>
+</html>
