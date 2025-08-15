@@ -1,0 +1,8 @@
+{
+  "name": "My Theme",
+  "description": "قالب Salla تجريبي",
+  "version": "1.0.0",
+  "author": "اسمك",
+  "category": "general",
+  "layouts": ["default.twig"]
+}
