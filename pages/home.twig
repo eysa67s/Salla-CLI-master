@@ -1,0 +1,14 @@
+{% extends "default.twig" %}
+
+{% block content %}
+<h2>منتجاتنا</h2>
+<div class="products">
+  {% for product in products %}
+    <div class="product">
+      <img src="{{ product.image }}" alt="{{ product.name }}">
+      <h3>{{ product.name }}</h3>
+      <p>{{ product.price }} {{ store.currency }}</p>
+    </div>
+  {% endfor %}
+</div>
+{% endblock %}
